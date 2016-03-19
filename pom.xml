@@ -60,6 +60,12 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
 					<executable>true</executable>
+		                          <requiresUnpack>
+		                                <dependency>
+		                                       <groupId>org.seleniumhq.selenium</groupId>
+		                                       <artifactId>selenium-server</artifactId>
+		                                </dependency>
+		                          </requiresUnpack>
 				</configuration>
 			</plugin>
 			<plugin>

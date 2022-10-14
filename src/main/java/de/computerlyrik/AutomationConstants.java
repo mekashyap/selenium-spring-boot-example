@@ -1,11 +1,5 @@
 package de.computerlyrik.selenium;
 
-import java.util.List;
-
-import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-
-
 public class AutomationConstants {
 
 	private static final String DEBUG_PORT= "--remote-debugging-port=9222";

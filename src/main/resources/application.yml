@@ -1,8 +1,0 @@
-test:
-  browser: firefox
-  startUrl: http://google.com
-  suites:
-    - htmlrunner_suite
-
-logging.level.org.openqa: DEBUG
-logging.level.de.computerlyrik: DEBUG
